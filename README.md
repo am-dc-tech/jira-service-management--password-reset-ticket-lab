@@ -3,7 +3,8 @@
 
 ## Summary
 
-This is me getting me feet wet with Jira, a simple Jira password reset ticket. This is not me actually resetting the ticket but rather using the dashboard to resolve it.
+A hands-on lab simulating a Tier 1 help desk workflow using Jira Service Management. This lab covers the full ticket lifecycle for a password reset request, from creation 
+and assignment through troubleshooting documentation and resolution.
 
 ## Environment
 
@@ -82,8 +83,7 @@ Simulate using the Jira IT Support dashboard and help resolve a password-reset. 
 
 ## What I Learned
 
-- How to create a Jira service request.
-- How to assign a ticket to a technician.
-- How to update ticket status.
-- How to document troubleshooting.
-- How to resolve a help desk ticket.
+- How to navigate the Jira IT Helpdesk project and service request dashboard
+- How to create, assign, and manage a service request through its full lifecycle
+- How to document troubleshooting steps and resolution notes as a technician
+- Best practices for ticket status management and internal communication
