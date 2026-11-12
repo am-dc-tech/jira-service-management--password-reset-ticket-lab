@@ -1,72 +1,62 @@
-# Jira Password Reset Ticketing 
-
+# Jira Service Management — Password Reset Ticket Lab
 
 ## Summary
 
-A hands-on lab simulating a Tier 1 help desk workflow using Jira Service Management. This lab covers the full ticket lifecycle for a password reset request, from creation 
-and assignment through troubleshooting documentation and resolution.
+A hands-on lab simulating a Tier 1 help desk workflow using Jira Service Management.
+This lab covers the full ticket lifecycle for a password reset request. Starting off with creation and assignment through troubleshooting documentation and resolution.
 
 ## Environment
 
-- Jira Service Management/ Jira IT Helpdesk project
-
+- Jira Service Management / Jira IT Helpdesk project
 - Platform: Jira Cloud
-
 - Role: Tier 1 IT Support
-
 - Work Type: Service Request
 
 ## Lab Goal
 
-Simulate using the Jira IT Support dashboard and help resolve a password-reset. The lab demonstrates how to create, assign, update, document and resolve a service request.
+Simulate using the Jira IT Support dashboard to create, assign, update, document, and resolve a password reset service request.
 
 ## Steps
 
-1. Open The IT Helpdesk project in Jira
+1. Open the IT Helpdesk project in Jira
 
-<img width="881" height="573" alt="Jira-open-it-helpdesk-in-jira" src="https://github.com/user-attachments/assets/33b4b49b-6906-416e-a02d-9f8bd5196e8a" />
-
-
-2. Click `+Create` -> Click **Service Request**
-
-<img width="872" height="548" alt="serivice-request-jira" src="https://github.com/user-attachments/assets/e595641c-2c5e-47d3-ab45-42478ffd0695" />
+<img width="881" height="573" alt="1 Jira-open-it-helpdesk-in-jira" src="https://github.com/user-attachments/assets/24017709-8605-4953-9bd4-338c712ed017" />
 
 
-3. Enter **password reset - unable to log in ** and assign it to myself
+2. Click `+Create` → Click **Service Request**
+
+<img width="872" height="548" alt="2  serivice-request-jira" src="https://github.com/user-attachments/assets/21669f4e-b3c6-4625-8f7f-ace3c5c525ed" />
+
+3. Enter **Password Reset - Unable to Log In** and assign it to myself
+
+<img width="871" height="71" alt="3 password reset in service request" src="https://github.com/user-attachments/assets/b5a39383-7e80-413c-ae06-a412de74fb15" />
+
+4. Create the ticket
+
+<img width="870" height="118" alt="4  service-request-created" src="https://github.com/user-attachments/assets/b112e930-6688-48f0-88cd-077608799cc0" />
 
 
-<img width="871" height="71" alt="password reset in service request" src="https://github.com/user-attachments/assets/607d7d92-fd2e-4895-ad69-9f0f0aabb2e8" />
+5. Change the status to **In Progress**
+
+<img width="1061" height="120" alt="5  change-serivce-request-to-in-progress" src="https://github.com/user-attachments/assets/af979eb3-cd15-47ad-b0b0-f7bb2363a31f" />
 
 
-5. Create the ticket
+6. Add a comment describing the troubleshooting steps
+
+<img width="435" height="407" alt="6  troubleshooting-comment" src="https://github.com/user-attachments/assets/903481b6-33c0-4e4d-9866-4914291e1db5" />
 
 
-<img width="870" height="118" alt="image" src="https://github.com/user-attachments/assets/05529675-bf79-4f40-8da5-55ba1e0bf9a2" />
+7. Add a comment describing the resolution
+
+<img width="443" height="478" alt="7  Resolution-comment" src="https://github.com/user-attachments/assets/ebfa844b-f95a-4317-b103-6d082898e0dc" />
 
 
-6. Change the status to **in progress**
+8. Change status to `Resolved`
+
+<img width="1635" height="84" alt="8  Change-status to resolve" src="https://github.com/user-attachments/assets/8d09aecd-6367-4d41-ad16-8f7cff6a55dd" />
 
 
-<img width="1061" height="120" alt="change-serivce-request-to-inprogress" src="https://github.com/user-attachments/assets/a28f1deb-0bae-49e2-a483-6c300a4e7312" />
-
-7. Add a comment describing the troubleshooting
-
-
-<img width="435" height="407" alt="image" src="https://github.com/user-attachments/assets/db7985a5-bcda-4f9e-a9ec-bc0b0fa76247" />
-
-
-8. Add a comment describing the resolution
-
-<img width="443" height="478" alt="Resolution-comment" src="https://github.com/user-attachments/assets/6d7727ae-2471-4cd9-ae25-0b9af98b7dec" />
-
-
-9. Change status to ```Resolved ```
-
-<img width="1635" height="84" alt="Change-status to resolve" src="https://github.com/user-attachments/assets/76d897dc-f775-4f11-9189-e846db274af1" />
-
-
- 
-## Skills Demonstrated 
+## Skills Demonstrated
 
 - Creating a service request
 - Ticket assignment
@@ -77,9 +67,9 @@ Simulate using the Jira IT Support dashboard and help resolve a password-reset. 
 
 ## Security
 
-- Only authorized it support agents should handle password reset requests
+- Only authorized IT support agents should handle password reset requests
 - Verify the user's identity before resetting the password
-- Avoid putting passwords or sensitive information on ticket comments
+- Avoid putting passwords or sensitive information in ticket comments
 
 ## What I Learned
 
